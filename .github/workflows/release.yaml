@@ -13,7 +13,7 @@ jobs:
   # Linux x86 assets built using the container based build
   build-linux-amd64:
     environment: release
-    runs-on: ubuntu-latest
+    runs-on: linux
     env:
       PLATFORM: linux/amd64
     steps:
